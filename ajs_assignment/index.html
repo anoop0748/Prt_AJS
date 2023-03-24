@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <div class="main_cont">
+        <h1> Grading System Assignment</h1>
+        <div id="body_cont">
+            <div class="sub_cont">
+                <h3 class="headings" id="sub_heading">Grading System In JS</h3>
+                <div>
+                    <label for="english"  ><b>English :</b></label>
+                <input type="number"  name="english" id="english"/>
+                </div>
+                <div>
+                    <label for="maths" ><b>Maths :</b></label>
+                <input type="number"  id="maths"/>
+                </div>
+                <div>
+                    <label for="physics" ><b>Physics :</b></label>
+                <input type="number" name="physics" id="physics"/>
+                </div>
+                <div>
+                    <label for="chemistry" ><b>Chemistry :</b></label>
+                <input type="number" name="chemistry" id="chemistry"/>
+                </div>
+                <div>
+                    <label for="computer" ><b>Computer :</b></label>
+                <input type="number" name="computer" id="computer"/>
+                </div>
+                <button id="cal_gra">Calculate Grade</button>
+            </div>
+            <div class="sub_cont">
+                <div class="card_cont">
+                    <h3 class="headings">Total</h3>
+                    <b><p id="total"></p></b>
+                </div>
+                <div class="card_cont">
+                    <h3 class="headings">Average</h3>
+                    <b><p id="average"></p></b>
+                </div>
+                <div class="card_cont">
+                    <h3 class="headings">Grade</h3>
+                    <b><p id="grade"></p></b>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
